@@ -3,7 +3,7 @@ layout: cv
 # permalink: /cv
 permalink: /cv.html # hacking!
 redirect_to:
-  - /assets/pdf/cv.pdf
+  - /cv.pdf
 title: cv
 nav: True
 nav_order: 3
