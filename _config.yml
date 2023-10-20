@@ -8,7 +8,7 @@ middle_name:
 last_name: Creager
 email: creager@uwaterloo.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Prof. Elliot Creager's personal website.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: machine-learning, artificial-intelligence, research  # add your own keywords or leave empty
