@@ -2,11 +2,23 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Portfolio of courses taught.
 nav: true
-nav_order: 5
+nav_order: 2
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-Organize your courses by years, topics, or universities, however you like!
+### ECE406: Algorithm Design and Analysis (Winter 2024)
+Design and analysis of efficient, correct algorithms. Advanced data structures, divide and conquer algorithms, recurrences, greedy algorithms, dynamic programming, graph algorithms, search and backtrack, inherently hard and unsolvable problems, approximation and randomized algorithms, and amortized analysis.
+
+* Time: TBA
+* Room: TBA
+* Past syllabus for course: [Algorithm Design and Analysis](https://ece.uwaterloo.ca/~sl2smith/teaching/ECE406_course_outline.pdf)
+  * (Courtesy of Stephen L. Smith)
+
+### CSC384: Introduction to Artificial Intelligence (Winter 2022)
+*(Taught at University of Toronto)*
+
+Broad introduction to the foundational concepts of AI. Search algorithms, complexity analysis, constraint satisfaction, knowledge representation, probability and uncertainty, graphical models, games.
+* Time: Mon, Wed, Fri 3--4pm
+* Room: SS 2118

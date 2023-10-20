@@ -5,7 +5,8 @@
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
           {% if page.permalink != '/' -%}
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          <!-- <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/"> -->
+          <a class="navbar-brand title font-weight-lighter" href="{{ site.url }}/">
             {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
                 <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
@@ -45,7 +46,8 @@
 
               <!-- About -->
               <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
+                <!-- <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }} -->
+                <a class="nav-link" href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ about_title }}
                   {%- if page.permalink == '/' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
@@ -54,6 +56,7 @@
               {% if site.blog_nav_title %}
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+                <!-- TODO: fix hrefs later if I decide to host a blog on this page -->
                 <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
                   {%- if page.url contains 'blog' -%}
                   <span class="sr-only">(current)</span>
@@ -85,7 +88,10 @@
               </li>
               {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
+                <!-- <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }} -->
+                <!-- <a class="nav-link" href="{{ site.baseurl | relative_url }}">{{ p.title }} -->
+                <!-- <a class="nav-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url | p.url }}">{{ p.title }} -->
+                <a class="nav-link" href="{{ p.url | prepend: site.baseurl | prepend: site.url }}">{{ p.title }}
                   {%- if page.title == p.title -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
