@@ -27,5 +27,3 @@ My methods draw on technical approaches such as representation learning, causal 
 
 Meanwhile, I am very interested in analyzing the broader implications of using machine learning to automate decisions, especially the tendency of this process to codify and compound existing social inequities.
 
-Outside of work, I enjoy birdwatching around the Greater Toronto Area, where I've seen ~120 species. 
-Also, I am a guitarist in the [Adam Solmon Band](https://www.adamsolomonlive.ca/).
