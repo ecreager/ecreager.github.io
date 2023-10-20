@@ -6,6 +6,6 @@ redirect_to:
   - /cv.pdf
 title: cv
 nav: True
-nav_order: 3
+nav_order: 4
 cv_pdf: cv.pdf
 ---
