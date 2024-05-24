@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2024-05-01 07:59:00-0400
+date: 2024-05-23 07:59:00-0400
 inline: true
 ---
 
-:ghost: [Out of the Ordinary](https://arxiv.org/abs/2312.17463) was accepted to ICML 2024!
+:mag: I was awarded a [CIFAR AI Catalyst Grant](https://cifar.ca/cifarnews/2024/05/23/six-new-cifar-ai-catalyst-grants-awarded/) to work with [Golnoosh Farnadi](https://gfarnadi.github.io/) on Algorithmic Auditing.
 
 
