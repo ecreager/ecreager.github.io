@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor at <a href='https://uwaterloo.ca/electrical-computer-engineering/'>University of Waterloo</a>. Faculty Affiliate at <a href='https://vectorinstitute.ai/'>Vector Institute for Artificial Intelligence</a> and <a href='https://srinstitute.utoronto.ca/'>Schwartz Reisman Institute for Technology and Society</a>. 
+subtitle: Assistant Professor at the <a href='https://uwaterloo.ca/electrical-computer-engineering/'>University of Waterloo</a>. Faculty Affiliate at <a href='https://vectorinstitute.ai/'>Vector Institute for Artificial Intelligence</a> and <a href='https://srinstitute.utoronto.ca/'>Schwartz Reisman Institute for Technology and Society</a>. 
 
 # TODO(): replace subtitle above
 
