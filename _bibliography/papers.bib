@@ -1,18 +1,51 @@
 ---
 ---
 
-@article{alamdari2023remembering,
-  title={Remembering to Be Fair: On Non-Markovian Fairness in Sequential DecisionMaking (Preliminary Report)},
-  author={Alamdari, Parand A and Klassen, Toryn Q and Creager, Elliot and McIlraith, Sheila A},
-  journal={arXiv preprint arXiv:2312.04772},
-  year={2023},
-  abbr = {ICML Workshops},
-  bibtex_show = {true},
-  abstract = {Fair decision making has largely been studied with respect to a single decision. In this paper we investigate the notion of fairness in the context of sequential decision making where multiple stakeholders can be affected by the outcomes of decisions. We observe that fairness often depends on the history of the sequential decision-making process, and in this sense that it is inherently non-Markovian. We further observe that fairness often needs to be assessed at time points within the process, not just at the end of the process. To advance our understanding of this class of fairness problems, we explore the notion of non-Markovian fairness in the context of sequential decision making. We identify properties of non-Markovian fairness, including notions of long-term, anytime, periodic, and bounded fairness. We further explore the interplay between non-Markovian fairness and memory, and how this can support construction of fair policies for making sequential decisions.},
-  language = {en},
-  selected={false},
-  booktitle={NeurIPS Workshop on Algorithmic Fairness Through the Lens of Time},
-  pdf = {https://arxiv.org/pdf/2312.04772.pdf},
+@inproceedings{eyre_out_2024,
+	title = {Out of the {Ordinary}: {Robust} {Regression} by {Spectral} {Adaptation}},
+	url = {https://proceedings.mlr.press/v235/eyre24a.html},
+	abstract = {Designing deep neural network classifiers that perform robustly on distributions differing from the available training data is an active area of machine learning research. However, out-of-distribution generalization for regression-the analogous problem for modeling continuous targets-remains relatively unexplored. To tackle this problem, we return to first principles and analyze how the closed-form solution for Ordinary Least Squares (OLS) regression is sensitive to covariate shift. We characterize the out-of-distribution risk of the OLS model in terms of the eigenspectrum decomposition of the source and target data. We then use this insight to propose a method for adapting the weights of the last layer of a pre-trained neural regression model to perform better on input data originating from a different distribution. We demonstrate how this lightweight spectral adaptation procedure can improve out-of-distribution performance for synthetic and real-world datasets.},
+	language = {en},
+	booktitle = {Proceedings of the 41st {International} {Conference} on {Machine} {Learning}},
+	author = {Eyre, Benjamin and Creager, Elliot and Madras, David and Papyan, Vardan and Zemel, Richard},
+	year = {2024},
+    pdf = {https://arxiv.org/pdf/2312.17463},
+    arxiv = {2312.17463},
+    selected={false},
+    abbr = {ICML},
+    bibtex_show = {true},
+}
+
+@inproceedings{alamdari_remembering_2024,
+	series = {Proceedings of {Machine} {Learning} {Research}},
+	title = {Remembering to {Be} {Fair}: {Non}-{Markovian} {Fairness} in {Sequential} {Decision} {Making}},
+	volume = {235},
+	url = {https://proceedings.mlr.press/v235/alamdari24a.html},
+	abstract = {Fair decision making has largely been studied with respect to a single decision. Here we investigate the notion of fairness in the context of sequential decision making where multiple stakeholders can be affected by the outcomes of decisions. We observe that fairness often depends on the history of the sequential decision-making process, and in this sense that it is inherently non-Markovian. We further observe that fairness often needs to be assessed at time points {\textless}em{\textgreater}within{\textless}/em{\textgreater} the process, not just at the end of the process. To advance our understanding of this class of fairness problems, we explore the notion of non-Markovian fairness in the context of sequential decision making. We identify properties of non-Markovian fairness, including notions of long-term, anytime, periodic, and bounded fairness. We explore the interplay between non-Markovian fairness and memory and how memory can support construction of fair policies. Finally, we introduce the FairQCM algorithm, which can automatically augment its training data to improve sample efficiency in the synthesis of fair policies via reinforcement learning.},
+	booktitle = {Proceedings of the 41st {International} {Conference} on {Machine} {Learning}},
+	publisher = {PMLR},
+	author = {Alamdari, Parand A. and Klassen, Toryn Q. and Creager, Elliot and Mcilraith, Sheila A.},
+	month = jul,
+	year = {2024},
+	pages = {906--920},
+    pdf = {https://arxiv.org/pdf/2312.04772},
+    arxiv = {2312.04772},
+    selected={false},
+    abbr = {ICML},
+    bibtex_show = {true},
+}
+
+@phdthesis{creager_robust_2023,
+	type = {{PhD} {Thesis}},
+	title = {Robust {Machine} {Learning} by {Transforming} and {Augmenting} {Imperfect} {Training} {Data}},
+	abstract = {Machine Learning (ML) is an expressive framework for turning data into computer programs. Across many problem domains -- both in industry and policy settings -- the types of computer programs needed for accurate prediction or optimal control are difficult to write by hand. On the other hand, collecting instances of desired system behavior may be relatively more feasible. This makes ML broadly appealing, but also induces data sensitivities that often manifest as unexpected failure modes during deployment. In this sense, the training data available tend to be imperfect for the task at hand. This thesis explores several data sensitivities of modern machine learning and how to address them. We begin by discussing how to prevent ML from codifying prior human discrimination measured in the training data, where we take a fair representation learning approach. We then discuss the problem of learning from data containing spurious features, which provide predictive fidelity during training but are unreliable upon deployment. Here we observe that insofar as standard training methods tend to learn such features, this propensity can be leveraged to search for partitions of training data that expose this inconsistency, ultimately promoting learning algorithms invariant to spurious features. Finally, we turn our attention to reinforcement learning from data with insufficient coverage over all possible states and actions. To address the coverage issue, we discuss how causal priors can be used to model the single-step dynamics of the setting where data are collected. This enables a new type of data augmentation where observed trajectories are stitched together to produce new but plausible counterfactual trajectories.},
+	school = {University of Toronto (Canada)},
+	author = {Creager, Elliot},
+	year = {2023},
+    abbr = {Thesis},
+    pdf = {https://arxiv.org/pdf/2312.12597},
+    arxiv = {2312.12597},
+    bibtex_show = {true},
 }
 
 @inproceedings{mani_surfsup_2023,
@@ -29,29 +62,12 @@
     year = {2023},
     note = {arXiv:2304.06197 [physics]},
     keywords = {Computer Science - Machine Learning, Physics - Fluid Dynamics},
+    pdf = {http://arxiv.org/pdf/2304.06197},
     arxiv = {2304.06197},
-    pdf = {http://arxiv.org/pdf/2304.06197.pdf},
-    code = {https://github.com/cvlab-columbia/surfsup},
-    website = {https://surfsup.cs.columbia.edu/},
+    code = {https://github.com/cvlab-columbia/surfsup}, website = {https://surfsup.cs.columbia.edu/},
     selected = {false},
     bibtex_show = {true},
 }
-
-@inproceedings{eyre_out_2023,
-    year = {2023},
-    month = jul,
-    abbr = {ICML Workshops},
-    bibtex_show = {true},
-    title = {Out of the Ordinary: Spectrally Adapting Regression for Covariate Shift},
-    abstract = {Designing deep neural network classifiers that perform robustly on distributions differing from the available training data is an active area of machine learning research. However, out-of-distribution generalization for regression---the analogous problem for modeling continuous targets---remains relatively unexplored. To tackle this problem, we return to first principles and analyze how the closed-form solution for ordinary least squares (OLS) regression is sensitive to covariate shift. We characterize the out-of-distribution risk of the OLS model in terms of the eigenspectrum decomposition of the source and target data. We then use this insight to propose a method for adapting the weights of the last layer of a pre-trained neural regression model to perform better on input data originating from a different distribution. We demonstrate how this lightweight spectral adaptation procedure can improve out-of-distribution performance in a suite of both synthetic and real-world experiments.},
-    language = {en},
-    author = {Eyre, Benjamin and Creager, Elliot and Madras, David and Papyan, Vardan and Zemel, Richard},
-    pages = {8},
-    selected={false},
-    booktitle={ICML Workshop on Spurious Correlation, Invariance, and Stability},
-    pdf = {https://openreview.net/pdf?id=aJqJrekiNi},
-}
-
 
 @inproceedings{pitis_mocoda_2022,
     abbr = {NeurIPS},
@@ -65,9 +81,9 @@
     author = {Pitis, Silviu and Creager, Elliot and Mandlekar, Ajay and Garg, Animesh},
     month = Nov,
     year = {2022},
-    arxiv = {2210.11287},
     keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Robotics},
-    pdf = {http://arxiv.org/pdf/2210.11287.pdf},
+    pdf = {http://arxiv.org/pdf/2210.11287},
+    arxiv = {2210.11287},
     code = {https://github.com/spitis/mocoda},
     selected={false},
     booktitle={Advances in Neural Information Processing Systems},
@@ -102,10 +118,10 @@
     year = {2021},
     note = {ISSN: 2640-3498},
     pages = {2189--2200},
+    pdf = {https://arxiv.org/pdf/2010.07249},
     arxiv = {2010.07249},
-    pdf = {https://arxiv.org/pdf/2010.07249.pdf},
     abbr = {ICML},
-    selected = {true},
+    selected = {false},
     code = {https://github.com/ecreager/eiil},
 }
 
@@ -124,8 +140,8 @@
     year = {2021},
     note = {ISSN: 2640-3498},
     pages = {10401--10412},
+    pdf = {https://arxiv.org/pdf/2006.07886},
     arxiv = {2006.07886},
-    pdf = {https://arxiv.org/pdf/2006.07886.pdf},
     code = {https://github.com/ftraeuble/disentanglement_lib},
     selected={false},
 }
@@ -151,7 +167,8 @@
     year = {2021},
     booktitle = {ICML Workshop on Algorithmic Recourse},
     selected={false},
-    pdf = {https://drive.google.com/file/d/1Ni7CImVdwoQnGSrAPjMTuO_EOZZsBntI/view},
+    pdf = {https://arxiv.org/pdf/2401.00055},
+    arxiv = {2401.00055},
 }
 
 @inproceedings{pitis_counterfactual_2020,
@@ -168,8 +185,8 @@
     year = {2020},
     month = {dec},
     pages = {3976--3990},
-    selected={true},
-    pdf = {https://arxiv.org/pdf/2007.02863.pdf},
+    selected={false},
+    pdf = {https://arxiv.org/pdf/2007.02863},
     arxiv = {2007.02863},
     code = {https://github.com/spitis/genrl},
 }
@@ -190,7 +207,7 @@
     note = {arXiv:2011.06485 [cs]},
     keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Computation and Language},
     selected={false},
-    pdf = {https://arxiv.org/pdf/2011.06485.pdf},
+    pdf = {https://arxiv.org/pdf/2011.06485},
     arxiv = {2011.06485},
     code = {https://github.com/adragnar/irm-toxicity-classification},
 }
@@ -211,7 +228,7 @@
     note = {ISSN: 2640-3498},
     pages = {2185--2195},
     selected={false},
-    pdf = {https://arxiv.org/pdf/1909.09141.pdf},
+    pdf = {https://arxiv.org/pdf/1909.09141},
     arxiv = {1909.09141},
     code = {https://github.com/ecreager/causal-dyna-fair},
 }
@@ -233,7 +250,7 @@
     note = {ISSN: 2640-3498},
     pages = {6987--6998},
     selected={false},
-    pdf = {https://arxiv.org/pdf/2008.00104.pdf},
+    pdf = {https://arxiv.org/pdf/2008.00104},
     arxiv = {2008.00104},
 }
 
@@ -252,8 +269,8 @@
     year = {2019},
     note = {ISSN: 2640-3498},
     pages = {1436--1445},
-    selected={true},
-    pdf = {https://arxiv.org/pdf/1906.02589.pdf},
+    selected={false},
+    pdf = {https://arxiv.org/pdf/1906.02589},
     arxiv = {1906.02589},
 }
 
@@ -272,8 +289,8 @@
     note = {arXiv:1807.08024 [cs]},
     keywords = {Computer Science - Computer Vision and Pattern Recognition},
     selected={false},
-    pdf = {http://arxiv.org/pdf/1807.08024.pdf},
-    arxiv = {http://arxiv.org/abs/1807.08024},
+    pdf = {http://arxiv.org/pdf/1807.08024},
+    arxiv = {1807.08024},
     code = {https://github.com/zzzace2000/FIDO-saliency},
 }
 
@@ -311,7 +328,7 @@
     note = {ISSN: 2640-3498},
     pages = {3384--3393},
     selected={false},
-    pdf = {https://arxiv.org/pdf/1802.06309.pdf},
+    pdf = {https://arxiv.org/pdf/1802.06309},
     arxiv = {1802.06309},
     code = {https://github.com/VectorInstitute/laftr},
 }
@@ -343,10 +360,22 @@
     month = aug,
     year = {2016},
     note = {arXiv:1606.00037 [cs]},
-    pdf = {https://arxiv.org/pdf/1606.00037.pdf},
+    pdf = {https://arxiv.org/pdf/1606.00037},
     arxiv = {1606.00037},
     keywords = {Computer Science - Sound},
     booktitle = {17th International Society for Music Information Retrieval Conference},
     selected={false},
     code = {https://github.com/ecreager/vibntf},
+}
+
+@mastersthesis{creager_musical_2015,
+	title = {Musical {Source} {Separation} by {Coherent} {Frequency} {Modulation} {Cues}},
+	abstract = {This thesis explores the extraction of vibrato sounds from monaural excerpts of polyphonic music using the coherent frequency modulation (CFM) of component partials as a grouping cue. Nonnegative Matrix Factorization (NMF) (Lee and Seung 1999) is currently a popular tool for musical source separation (Wang and Plumbley 2005), since it can provide a lowrank approximate factorization of the magnitude spectrogram of the analyzed sound, where the factors can be interpreted as the spectral templates and temporal activations of the notes contributing to the recording. However, NMF implicitly models each source as having a ﬁxed spectral template and is thus ill-suited to the analysis of vibrato sounds, which are characterized by slowly varying frequency and amplitude modulations.},
+	language = {en},
+	school = {McGill University (Canada)},
+	author = {Creager, Elliot},
+	year = {2015},
+    abbr = {Thesis},
+    pdf = {https://escholarship.mcgill.ca/downloads/9593tx93q.pdf},
+    bibtex_show = {true},
 }
