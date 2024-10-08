@@ -15,4 +15,4 @@ Here is a much shorter version:
 
 *Elliot Creager is an Assistant Professor at the University of Waterloo, and Faculty Affiliate at the Vector Institute and the Schwartz Reisman Institute. He leads the Socially Embedded Machine Intelligence (SEMI) lab, where his research focuses on building reliable and equitable AI systems that promote user data autonomy.*
 
-If you need a headshot of me for an event (or event promotion) you may use [this photograph](https://ecreager.github.io/assets/img/prof_pic.jpg).
+If you need a headshot of me for an event (or event promotion) you may use [this photograph](/assets/img/prof_pic.jpg).
