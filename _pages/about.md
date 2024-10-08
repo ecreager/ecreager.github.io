@@ -22,8 +22,9 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to my humble homepage!
 
-I conduct research on how machine learning methods fail, and what can be done to improve their robustness in new contexts.
-My methods draw on technical approaches such as representation learning, causal inference, and data augmentation to build models for prediction and control that generalize beyond the available training data.
+I lead the **Socially Embedded Machine Intelligence (SEMI)** lab, where my research focuses on building reliable and equitable AI systems that promote user data autonomy.
+Located in Waterloo's Faculty of Engineering, my research group takes an instrumentalist approach to developing socially beneficial AI technology.
 
-Meanwhile, I am very interested in analyzing the broader implications of using machine learning to automate decisions, especially the tendency of this process to codify and compound existing social inequities.
-
+I am always looking for motivated students at all levels to help me realize this vision.
+I draw inspiration from many disciplines (from deep learning to sociology and beyond) in order train researchers who are not only technically proficient, but who think holistically and critically about the social impacts of their work.
+More information about how to join SEMI can be found [here](https://ecreager.github.io/join/).
