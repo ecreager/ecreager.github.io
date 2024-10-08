@@ -28,3 +28,13 @@ Located in Waterloo's Faculty of Engineering, my research group takes an instrum
 I am always looking for motivated students at all levels to help me realize this vision.
 I draw inspiration from many disciplines (from deep learning to sociology and beyond) in order train researchers who are not only technically proficient, but who think holistically and critically about the social impacts of their work.
 More information about how to join SEMI can be found [here](/join/).
+
+## current students
+* Rebecca Ma (MASc)
+* Rushabh Solanki (MAsc)
+* Huy Trinh (MASc)
+* Joshua Hill (Ugrad)
+
+## former students
+* Areena Akhter (Ugrad '24)
+* Violetta Bilynska (Intern '24)
