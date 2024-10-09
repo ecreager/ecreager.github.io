@@ -30,10 +30,10 @@ I draw inspiration from many disciplines (from deep learning to sociology and be
 More information about how to join SEMI can be found [here](/join/).
 
 ## current students
+* Joshua Hill (Ugrad)
 * Rebecca Ma (MASc)
 * Rushabh Solanki (MAsc)
-* Huy Trinh (MASc)
-* Joshua Hill (Ugrad)
+* Huy Trinh (MASc, co-supervised by Prof. George Shaker)
 
 ## former students
 * Areena Akhter (Ugrad '24)
