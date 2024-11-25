@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to my humble homepage!
 
-I lead the **Socially Embedded Machine Intelligence (SEMI)** lab, where my research focuses on building reliable and equitable AI systems that promote user data autonomy.
+I am the director of the **Socially Embedded Machine Intelligence (SEMI)** lab, where my research focuses on building reliable and equitable AI systems that promote user data autonomy.
 Located in Waterloo's Faculty of Engineering, my research group takes an instrumentalist approach to developing socially beneficial AI technology.
 
 I am always looking for motivated students at all levels to help me realize this vision.
