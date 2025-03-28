@@ -31,6 +31,7 @@ More information about how to join SEMI can be found [here](/join/).
 
 ## current students
 * Joshua Hill (Ugrad)
+* Chloe Nguyen (Ugrad)
 * Rebecca Ma (MASc)
 * Rushabh Solanki (MAsc)
 * Huy Trinh (MASc, co-supervised by Prof. George Shaker)
