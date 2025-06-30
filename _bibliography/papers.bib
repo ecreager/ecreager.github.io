@@ -1,5 +1,80 @@
 ---
 ---
+@unpublished{Chataigner2025say,
+  author={Chataigner, Cléa and Ma, Rebecca and Ganesh, Prakhar and Taïk, Afaf and Creager, Elliot and Farnadi, Golnoosh},
+  title = {Say It Another Way: Auditing LLMs with a User-Grounded Automated Paraphrasing Framework},
+  journal = {arXiv preprint},
+  year = {2025},
+  arxiv = {2505.03563},
+  eprint = {2505.03563},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.CL},
+  url = {https://arxiv.org/abs/2505.03563},
+  selected={false},
+  abbr = {Preprint},
+  bibtex_show = {true},
+  pdf = {https://arxiv.org/pdf/2505.03563},
+  abstract = {Large language models (LLMs) are sensitive to subtle changes in prompt phrasing, complicating efforts to audit them reliably. Prior approaches often rely on arbitrary or ungrounded prompt variations, which may miss key linguistic and demographic factors in real-world usage. We introduce AUGMENT (Automated User-Grounded Modeling and Evaluation of Natural Language Transformations), a framework for systematically generating and evaluating controlled, realistic prompt paraphrases based on linguistic structure and user demographics. AUGMENT ensures paraphrase quality through a combination of semantic, stylistic, and instruction-following criteria. In a case study on the BBQ dataset, we show that user-grounded paraphrasing leads to significant shifts in LLM performance and bias metrics across nine models. Our findings highlight the need for more representative and structured approaches to prompt variation in LLM auditing.},
+}
+
+@unpublished{Solanki2025crowding,
+  author = {Solanki, Rushabh and Bhange, Meghana and Aïvodji, Ulrich and Creager, Elliot},
+  title = {Crowding Out The Noise: Algorithmic Collective Action Under Differential Privacy},
+  journal = {arXiv preprint},
+  year = {2025},
+  arxiv = {2505.05707},
+  eprint = {2505.05707},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.LG},
+  url = {https://arxiv.org/abs/2505.05707},
+  selected={false},
+  abbr = {Preprint},
+  bibtex_show = {true},
+  pdf = {https://arxiv.org/pdf/2505.05707},
+  abstract = {The integration of AI into daily life has generated considerable attention and excitement, while also raising concerns about automating algorithmic harms and re-entrenching existing social inequities. While the responsible deployment of trustworthy AI systems is a worthy goal, there are many possible ways to realize it, from policy and regulation to improved algorithm design and evaluation. In fact, since AI trains on social data, there is even a possibility for everyday users, citizens, or workers to directly steer its behavior through Algorithmic Collective Action, by deliberately modifying the data they share with a platform to drive its learning process in their favor. This paper considers how these grassroots efforts to influence AI interact with methods already used by AI firms and governments to improve model trustworthiness. In particular, we focus on the setting where the AI firm deploys a differentially private model, motivated by the growing regulatory focus on privacy and data protection. We investigate how the use of Differentially Private Stochastic Gradient Descent (DPSGD) affects the collective's ability to influence the learning process. Our findings show that while differential privacy contributes to the protection of individual data, it introduces challenges for effective algorithmic collective action. We characterize lower bounds on the success of algorithmic collective action under differential privacy as a function of the collective's size and the firm's privacy parameters, and verify these trends experimentally by simulating collective action during the training of deep neural network classifiers across several datasets.},
+}
+
+@inproceedings{Hill2025transformers,
+  author = {Hill, Joshua and Eyre, Ben and Creager, Elliot},
+  title = {Transformers Don't In-Context Learn Least Squares Regression},
+  year = {2025},
+  booktitle = {ICML 2025 Workshop on Reliable and Responsible Foundation Models},
+  eprint = {forthcoming},
+  archiveprefix = {arXiv},
+  journal = {arXiv preprint},
+  primaryclass = {cs.LG},
+  url = {},
+  selected={false},
+  abbr = {ICML Workshops},
+  bibtex_show = {true},
+  abstract = {In-context learning (ICL) has emerged as a powerful capability of large pretrained transformers, enabling them to solve new tasks implicit in example input–output pairs without any gradient updates. Despite its practical success, the mechanisms underlying ICL remain largely mysterious. In this work we study synthetic linear regression to probe how transformers implement learning at inference time. Previous works have demonstrated that transformers match the performance of learning rules such as Ordinary Least Squares (OLS) regression or gradient descent and have suggested ICL is facilitated in transformers through the learned implementation of one of these techniques. In this work, we demonstrate through a suite of out‑of‑distribution generalization experiments that transformers trained for ICL fail to generalize after shifts in the prompt distribution, a behaviour that is inconsistent with the notion of transformers implementing algorithms such as OLS.  Finally, we highlight the role of the pretraining corpus in shaping ICL behaviour through a spectral analysis of the learned representations in the residual stream. Inputs from the same distribution as the training data produce representations with a unique \textit{spectral signature}: inputs from this distribution tend to have the same top two singular vectors. This spectral signature is not shared by out-of-distribution inputs, and a metric characterizing the presence of this signature is highly correlated with low loss.}
+}
+
+@inproceedings{nguyen2025out,
+  author = {Nguyen, Chloe and Kim, Jin Sol, and Fan, Lai-Tze and Creager, Elliot},
+  title = {Out of Sight, Out of Mind: Problems Perpetuated by Training on Facial Images Collected by De Facto Consent},
+  booktitle = {IEEE ETHICS 2025 Undergraduate Student Track},
+  year = {2025},
+  note = {\textbf{Oral}},
+  url = {},
+  selected={false},
+  abbr = {IEEE ETHICS (Student Oral)},
+  bibtex_show = {true},
+  abstract = {Images of human faces are being shared online at an unprecedented scale. These images—rich in biometric data—feed the datasets that power facial recognition technologies (FRT), such as airport security and facial identification on smartphones. But how this data is collected is increasingly opaque and invasive. Over the past year, major social media platforms, such as X and LinkedIn, have adopted de facto consent policies—that is to say, the automated permissions of user consent—allowing their machine learning models to train on user data without meaningful or even conscious user input. Public concern tends to emerge only after harm becomes visible, by which point the user's biometric information has already shaped the system's behavior.
+
+}
+
+@inproceedings{solanki2025algorithmic,
+  author = {Solanki, Rushabh and Bhange, Meghana and Aïvodji, Ulrich and Creager, Elliot},
+  title = {Algorithmic Collective Action Directed at Fair and Private Learning Algorithms},
+  booktitle={University of Waterloo Cybersecurity and Privacy Institute Graduate Student Conference},
+  year = {2025},
+  pdf = {https://uwaterloo.ca/cybersecurity-privacy-institute/sites/default/files/uploads/documents/poster-59.pdf},
+  note = {\textbf{Spotlight}},
+  selected={false},
+  abbr = {CPI GranConf (Spotlight)},
+  bibtex_show = {true},
+}
 
 @inproceedings{solanki2024promoting,
   title={Promoting User Data Autonomy During the Dissolution of a Monopolistic Firm},

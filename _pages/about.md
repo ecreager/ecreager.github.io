@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 Welcome to my humble homepage!
 
 I am the director of the **Socially Embedded Machine Intelligence (SEMI)** lab, where my research focuses on building reliable and equitable AI systems that promote user data autonomy.
-Located in Waterloo's Faculty of Engineering, my research group takes an instrumentalist approach to developing socially beneficial AI technology.
+Located in Waterloo's Faculty of Engineering, my research group takes an interdisciplinary approach to developing socially beneficial AI technology.
 
 I am always looking for motivated students at all levels to help me realize this vision.
 I draw inspiration from many disciplines (from deep learning to sociology and beyond) in order train researchers who are not only technically proficient, but who think holistically and critically about the social impacts of their work.
@@ -31,11 +31,11 @@ More information about how to join SEMI can be found [here](/join/).
 
 ## current students
 * Joshua Hill (Ugrad)
-* Chloe Nguyen (Ugrad)
 * Rebecca Ma (MASc)
 * Rushabh Solanki (MAsc)
 * Huy Trinh (MASc, co-supervised by Prof. George Shaker)
 
 ## former students
+* Chloe Nguyen (Ugrad '25)
 * Areena Akhter (Ugrad '24)
 * Violetta Bilynska (Intern '24)
