@@ -30,8 +30,12 @@ I draw inspiration from many disciplines (from deep learning to sociology and be
 More information about how to join SEMI can be found [here](/join/).
 
 ## current students
-* Joshua Hill (Ugrad)
+* Yuhao Chen (Co-op)
+* Joshua Hill (URA)
+* Brandon Jaipersaud (MASc)
+* Jin Sol Kim (Postdoc, co-supervised by Lai-Tze Fan)
 * Rebecca Ma (MASc)
+* Ambreesh Parthasarathy
 * Rushabh Solanki (MAsc)
 * Huy Trinh (MASc, co-supervised by Prof. George Shaker)
 
