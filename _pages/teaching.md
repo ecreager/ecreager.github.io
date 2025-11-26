@@ -7,6 +7,14 @@ nav: true
 nav_order: 2
 ---
 
+### ECE493/657D Neural Networks and Deep Learning
+*(Winter 2026)*
+
+Recent advances in neural network architectures and training algorithms have catalyzed significant breakthroughs in image classification, machine translation, protein folding, and beyond. This course follows the evolution of neural networks and their training algorithms, from the introduction of the perceptron in the 1950s and 1960s to the advent of ChatGPT in the 2020s. Topics covered include key training approaches such as maximum likelihood, contrastive learning, and diffusion modeling, as well as significant architectures such as convolutional nets, graph nets, and transformers. The course will also discuss how neural nets can learn useful “representations” of data, and explore recent trends in training models on web-scale datasets.
+
+* Course outlines (requires UW login): [ugrad course](https://outline.uwaterloo.ca/viewer/view/nvqt99); [grad course](https://outline.uwaterloo.ca/viewer/view/nzcg5a)
+
+
 
 ### ECE406: Algorithm Design and Analysis 
 *(Winter 2025, Winter 2024)*
